@@ -1,0 +1,32 @@
+{
+  "namespace": "retail.sales.products",
+  "name": "Product",
+  "type": "record",
+  "fields": [
+    {
+      "name": "product_id",
+      "type": "int"
+    },
+    {
+      "name": "product_name",
+      "type": "string"
+    },
+    {
+      "name": "product_category",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "price",
+      "type": "float"
+    },
+    {
+      "name": "last_updated",
+      "type": "string"
+    },
+    {
+      "name": "Price",
+      "type": "double"
+    }
+  ]
+}
